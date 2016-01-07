@@ -8,4 +8,4 @@
 ./project/project/project/
 ./project/project/target/
 */.sbtserver
-./workspace/target/
+workspace/target/*
