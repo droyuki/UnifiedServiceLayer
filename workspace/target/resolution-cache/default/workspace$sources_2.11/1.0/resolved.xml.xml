@@ -4,7 +4,7 @@
 		module="workspace$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160107223800"
+		publication="20160108215024"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

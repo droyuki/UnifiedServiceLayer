@@ -4,7 +4,7 @@
 		module="workspace$sources_javadoc_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160107223801"
+		publication="20160108215025"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -52,6 +52,10 @@
 			<artifact name="kafka-clients" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="kafka-clients" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.6" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);runtime-internal->default(compile)">
+			<artifact name="slf4j-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="slf4j-api" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
 		<dependency org="org.spark-project.spark" name="unused" rev="1.0.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="unused" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="unused" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
@@ -80,6 +84,260 @@
 			<artifact name="akka-testkit_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="akka-testkit_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
+		<dependency org="com.github.stephenc.findbugs" name="findbugs-annotations" rev="1.3.9-1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="findbugs-annotations" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="findbugs-annotations" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="log4j" name="log4j" rev="1.2.17" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="log4j" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="log4j" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="junit" name="junit" rev="4.11" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="junit" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="junit" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.hamcrest" name="hamcrest-core" rev="1.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="hamcrest-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="hamcrest-core" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.hbase" name="hbase-common" rev="1.0.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="hbase-common" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="hbase-common" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.hbase" name="hbase-annotations" rev="1.0.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="hbase-annotations" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="hbase-annotations" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.google.guava" name="guava" rev="12.0.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);runtime-internal->default(compile)">
+			<artifact name="guava" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="guava" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-logging" name="commons-logging" rev="1.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-logging" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-logging" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-codec" name="commons-codec" rev="1.9" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-codec" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-codec" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-lang" name="commons-lang" rev="2.6" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-lang" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-lang" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-io" name="commons-io" rev="2.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-io" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-io" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.google.protobuf" name="protobuf-java" rev="2.5.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="protobuf-java" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="protobuf-java" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.mortbay.jetty" name="jetty-util" rev="6.1.26" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jetty-util" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jetty-util" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.htrace" name="htrace-core" rev="3.1.0-incubating" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="htrace-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="htrace-core" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.hbase" name="hbase-client" rev="1.0.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="hbase-client" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="hbase-client" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.hbase" name="hbase-protocol" rev="1.0.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="hbase-protocol" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="hbase-protocol" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="io.netty" name="netty-all" rev="4.0.23.Final" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);runtime-internal->default(compile)">
+			<artifact name="netty-all" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="netty-all" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.zookeeper" name="zookeeper" rev="3.4.6" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="zookeeper" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="zookeeper" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.jruby.jcodings" name="jcodings" rev="1.0.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jcodings" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.jruby.joni" name="joni" rev="2.1.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="joni" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="joni" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.hadoop" name="hadoop-common" rev="2.6.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="hadoop-common" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="hadoop-common" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.hadoop" name="hadoop-annotations" rev="2.6.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="hadoop-annotations" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="hadoop-annotations" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-cli" name="commons-cli" rev="1.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-cli" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-cli" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.commons" name="commons-math3" rev="3.1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);runtime-internal->default(compile)">
+			<artifact name="commons-math3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-math3" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-httpclient" name="commons-httpclient" rev="3.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-httpclient" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-net" name="commons-net" rev="3.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-net" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-net" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-collections" name="commons-collections" rev="3.2.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-collections" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-collections" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="javax.servlet" name="servlet-api" rev="2.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="servlet-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.mortbay.jetty" name="jetty" rev="6.1.26" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jetty" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jetty" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.sun.jersey" name="jersey-core" rev="1.9" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jersey-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jersey-core" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.sun.jersey" name="jersey-json" rev="1.9" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jersey-json" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jersey-json" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.codehaus.jettison" name="jettison" rev="1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jettison" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jettison" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.sun.xml.bind" name="jaxb-impl" rev="2.2.3-1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);runtime-internal->default(compile)">
+			<artifact name="jaxb-impl" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="javax.xml.bind" name="jaxb-api" rev="2.2.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);runtime-internal->default(compile)">
+			<artifact name="jaxb-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jaxb-api" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="javax.xml.stream" name="stax-api" rev="1.0-2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);runtime-internal->default(compile)">
+			<artifact name="stax-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="javax.activation" name="activation" rev="1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);runtime-internal->default(compile)">
+			<artifact name="activation" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.codehaus.jackson" name="jackson-jaxrs" rev="1.8.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jackson-jaxrs" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.codehaus.jackson" name="jackson-xc" rev="1.8.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jackson-xc" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.sun.jersey" name="jersey-server" rev="1.9" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jersey-server" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jersey-server" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="asm" name="asm" rev="3.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="asm" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.java.dev.jets3t" name="jets3t" rev="0.9.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jets3t" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.jamesmurty.utils" name="java-xmlbuilder" rev="0.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="java-xmlbuilder" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="java-xmlbuilder" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-configuration" name="commons-configuration" rev="1.6" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-configuration" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-digester" name="commons-digester" rev="1.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-digester" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-beanutils" name="commons-beanutils" rev="1.7.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-beanutils" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-beanutils" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.codehaus.jackson" name="jackson-core-asl" rev="1.9.13" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jackson-core-asl" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jackson-core-asl" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.codehaus.jackson" name="jackson-mapper-asl" rev="1.9.13" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jackson-mapper-asl" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jackson-mapper-asl" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.avro" name="avro" rev="1.7.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);runtime-internal->default(compile)">
+			<artifact name="avro" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="avro" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.thoughtworks.paranamer" name="paranamer" rev="2.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);runtime-internal->default(compile)">
+			<artifact name="paranamer" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="paranamer" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.commons" name="commons-compress" rev="1.4.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-compress" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-compress" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.tukaani" name="xz" rev="1.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="xz" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="xz" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.google.code.gson" name="gson" rev="2.2.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="gson" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="gson" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.hadoop" name="hadoop-auth" rev="2.6.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="hadoop-auth" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="hadoop-auth" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.2.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="httpclient" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="httpclient" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpcore" rev="4.2.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="httpcore" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="httpcore" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.directory.server" name="apacheds-kerberos-codec" rev="2.0.0-M15" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="apacheds-kerberos-codec" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="apacheds-kerberos-codec" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.directory.server" name="apacheds-i18n" rev="2.0.0-M15" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="apacheds-i18n" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="apacheds-i18n" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.directory.api" name="api-asn1-api" rev="1.0.0-M20" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="api-asn1-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="api-asn1-api" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.directory.api" name="api-util" rev="1.0.0-M20" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="api-util" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="api-util" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.curator" name="curator-framework" rev="2.6.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="curator-framework" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="curator-framework" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.curator" name="curator-client" rev="2.6.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="curator-client" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="curator-client" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);runtime-internal->default(compile)">
+			<artifact name="slf4j-log4j12" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="slf4j-log4j12" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.jcraft" name="jsch" rev="0.1.42" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jsch" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.curator" name="curator-recipes" rev="2.6.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="curator-recipes" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="curator-recipes" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.htrace" name="htrace-core" rev="3.0.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="htrace-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="htrace-core" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="commons-el" name="commons-el" rev="1.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-el" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-el" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="javax.servlet.jsp" name="jsp-api" rev="2.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jsp-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
 		<dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);scala-tool->default(compile)">
 			<artifact name="scala-xml_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="scala-xml_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
@@ -91,24 +349,6 @@
 		<dependency org="net.jpountz.lz4" name="lz4" rev="1.3.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="lz4" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="lz4" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="log4j" name="log4j" rev="1.2.17" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="log4j" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="log4j" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="jline" name="jline" rev="0.9.94" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="jline" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="junit" name="junit" rev="3.8.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="junit" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="org.apache.commons" name="commons-lang3" rev="3.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);runtime-internal->default(compile)">
-			<artifact name="commons-lang3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="commons-lang3" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.10" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="slf4j-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="slf4j-api" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.xerial.snappy" name="snappy-java" rev="1.1.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);provided->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="snappy-java" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -137,22 +377,6 @@
 		<dependency org="org.apache.avro" name="avro" rev="1.7.7" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
 			<artifact name="avro" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="avro" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="org.codehaus.jackson" name="jackson-core-asl" rev="1.9.13" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="jackson-core-asl" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="jackson-core-asl" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="org.codehaus.jackson" name="jackson-mapper-asl" rev="1.9.13" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="jackson-mapper-asl" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="jackson-mapper-asl" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="org.apache.commons" name="commons-compress" rev="1.4.1" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="commons-compress" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="commons-compress" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="org.tukaani" name="xz" rev="1.0" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="xz" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="xz" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="com.twitter" name="chill_2.11" rev="0.5.0" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
 			<artifact name="chill_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -184,58 +408,33 @@
 		<dependency org="org.apache.hadoop" name="hadoop-client" rev="2.2.0" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
 			<artifact name="hadoop-client" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="org.apache.hadoop" name="hadoop-common" rev="2.2.0" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="org.apache.hadoop" name="hadoop-common" rev="2.2.0" transitive="false" conf="provided->default(compile)">
 			<artifact name="hadoop-common" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="hadoop-common" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="org.apache.hadoop" name="hadoop-annotations" rev="2.2.0" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="org.apache.hadoop" name="hadoop-annotations" rev="2.2.0" transitive="false" conf="provided->default(compile)">
 			<artifact name="hadoop-annotations" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="hadoop-annotations" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="commons-cli" name="commons-cli" rev="1.2" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="commons-cli" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="commons-cli" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="org.apache.commons" name="commons-math" rev="2.1" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="org.apache.commons" name="commons-math" rev="2.1" transitive="false" conf="provided->default(compile)">
 			<artifact name="commons-math" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="commons-math" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="commons-httpclient" name="commons-httpclient" rev="3.1" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="commons-httpclient" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="commons-lang" name="commons-lang" rev="2.5" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="commons-lang" name="commons-lang" rev="2.5" transitive="false" conf="provided->default(compile)">
 			<artifact name="commons-lang" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="commons-lang" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="commons-configuration" name="commons-configuration" rev="1.6" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="commons-configuration" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="commons-collections" name="commons-collections" rev="3.2.1" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="commons-collections" name="commons-collections" rev="3.2.1" transitive="false" conf="provided->default(compile)">
 			<artifact name="commons-collections" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="commons-collections" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="commons-digester" name="commons-digester" rev="1.8" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="commons-digester" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="commons-beanutils" name="commons-beanutils" rev="1.7.0" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="commons-beanutils" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="commons-beanutils" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="com.google.protobuf" name="protobuf-java" rev="2.5.0" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="protobuf-java" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="protobuf-java" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="org.apache.hadoop" name="hadoop-auth" rev="2.2.0" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="org.apache.hadoop" name="hadoop-auth" rev="2.2.0" transitive="false" conf="provided->default(compile)">
 			<artifact name="hadoop-auth" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="hadoop-auth" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.apache.hadoop" name="hadoop-hdfs" rev="2.2.0" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
 			<artifact name="hadoop-hdfs" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="hadoop-hdfs" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="org.mortbay.jetty" name="jetty-util" rev="6.1.26" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="jetty-util" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="jetty-util" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.apache.hadoop" name="hadoop-mapreduce-client-app" rev="2.2.0" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
 			<artifact name="hadoop-mapreduce-client-app" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -272,22 +471,10 @@
 			<artifact name="jersey-test-framework-grizzly2" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="jersey-test-framework-grizzly2" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="com.sun.jersey" name="jersey-server" rev="1.9" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="jersey-server" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="jersey-server" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="com.sun.jersey" name="jersey-json" rev="1.9" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="jersey-json" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="jersey-json" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="org.codehaus.jettison" name="jettison" rev="1.1" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="jettison" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="jettison" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="org.codehaus.jackson" name="jackson-jaxrs" rev="1.8.8" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="org.codehaus.jackson" name="jackson-jaxrs" rev="1.8.8" transitive="false" conf="provided->default(compile)">
 			<artifact name="jackson-jaxrs" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
-		<dependency org="org.codehaus.jackson" name="jackson-xc" rev="1.8.8" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="org.codehaus.jackson" name="jackson-xc" rev="1.8.8" transitive="false" conf="provided->default(compile)">
 			<artifact name="jackson-xc" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="com.sun.jersey.contribs" name="jersey-guice" rev="1.9" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
@@ -354,24 +541,27 @@
 			<artifact name="spark-unsafe_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="spark-unsafe_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="net.java.dev.jets3t" name="jets3t" rev="0.7.1" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="net.java.dev.jets3t" name="jets3t" rev="0.7.1" transitive="false" conf="provided->default(compile)">
 			<artifact name="jets3t" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
-		<dependency org="org.apache.curator" name="curator-recipes" rev="2.4.0" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="org.apache.curator" name="curator-recipes" rev="2.4.0" transitive="false" conf="provided->default(compile)">
 			<artifact name="curator-recipes" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="curator-recipes" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="org.apache.curator" name="curator-framework" rev="2.4.0" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="org.apache.curator" name="curator-framework" rev="2.4.0" transitive="false" conf="provided->default(compile)">
 			<artifact name="curator-framework" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="curator-framework" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="org.apache.curator" name="curator-client" rev="2.4.0" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="org.apache.curator" name="curator-client" rev="2.4.0" transitive="false" conf="provided->default(compile)">
 			<artifact name="curator-client" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="curator-client" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="org.apache.zookeeper" name="zookeeper" rev="3.4.5" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="org.apache.zookeeper" name="zookeeper" rev="3.4.5" transitive="false" conf="provided->default(compile)">
 			<artifact name="zookeeper" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="zookeeper" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="jline" name="jline" rev="0.9.94" transitive="false" conf="provided->default(compile)">
+			<artifact name="jline" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="com.google.guava" name="guava" rev="14.0.1" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
 			<artifact name="guava" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -381,13 +571,17 @@
 			<artifact name="javax.servlet" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="javax.servlet" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="org.apache.commons" name="commons-lang3" rev="3.3.2" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="org.apache.commons" name="commons-lang3" rev="3.3.2" transitive="false" conf="provided->default(compile)">
 			<artifact name="commons-lang3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="commons-lang3" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.apache.commons" name="commons-math3" rev="3.4.1" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
 			<artifact name="commons-math3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="commons-math3" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.10" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+			<artifact name="slf4j-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="slf4j-api" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.slf4j" name="jul-to-slf4j" rev="1.7.10" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
 			<artifact name="jul-to-slf4j" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -409,7 +603,7 @@
 			<artifact name="RoaringBitmap" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="RoaringBitmap" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="commons-net" name="commons-net" rev="2.2" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="commons-net" name="commons-net" rev="2.2" transitive="false" conf="provided->default(compile)">
 			<artifact name="commons-net" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="commons-net" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
@@ -453,10 +647,6 @@
 			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="scala-compiler" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="com.sun.jersey" name="jersey-core" rev="1.9" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="jersey-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="jersey-core" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
 		<dependency org="org.apache.mesos" name="mesos" rev="0.21.1" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
 			<artifact name="mesos" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="mesos" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
@@ -495,10 +685,6 @@
 		<dependency org="org.tachyonproject" name="tachyon-client" rev="0.8.2" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
 			<artifact name="tachyon-client" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="tachyon-client" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="commons-io" name="commons-io" rev="2.4" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
-			<artifact name="commons-io" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="commons-io" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.tachyonproject" name="tachyon-underfs-hdfs" rev="0.8.2" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
 			<artifact name="tachyon-underfs-hdfs" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -556,7 +742,7 @@
 			<artifact name="parquet-generator" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="parquet-generator" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="commons-codec" name="commons-codec" rev="1.5" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
+		<dependency org="commons-codec" name="commons-codec" rev="1.5" transitive="false" conf="provided->default(compile)">
 			<artifact name="commons-codec" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="commons-codec" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
@@ -641,6 +827,10 @@
 		<dependency org="com.sun.xml.fastinfoset" name="FastInfoset" rev="1.2.12" transitive="false" conf="provided->default(compile);compile-internal->default(compile);test-internal->default(compile)">
 			<artifact name="FastInfoset" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="FastInfoset" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.commons" name="commons-lang3" rev="3.0" transitive="false" conf="compile-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-lang3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-lang3" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="jline" name="jline" rev="2.12.1" transitive="false" conf="scala-tool->default(compile)">
 			<artifact name="jline" type="src" ext="jar" conf="sources" e:classifier="sources"/>

@@ -6,15 +6,21 @@ scalaVersion := "2.11.7"
 fork := true
 
 libraryDependencies ++= Dependencies.SparkLib
+resolvers += "Apache HBase" at "https://repository.apache.org/content/repositories/releases"
+resolvers += "mvnrepository" at "http://mvnrepository.com/artifact/"
+resolvers += "central" at "http://repo1.maven.org/maven2/"
 
 //avoid version conflict
 libraryDependencies ++= Seq(
+  "org.apache.hbase" % "hbase" % "1.0.0",
+  "org.apache.hbase" % "hbase-common" % "1.0.0",
+  "org.apache.hbase" % "hbase-client" % "1.0.0",
+  "org.apache.hadoop" % "hadoop-common" % "2.6.3",
   "mysql" % "mysql-connector-java" % "5.1.6",
   "org.scala-lang.modules" %% "scala-xml" % "1.0.4",
   "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.4",
   "net.jpountz.lz4" % "lz4" % "1.3.0",
   "log4j" % "log4j" % "1.2.17",
-  "org.slf4j" % "slf4j-api" % "1.7.10",
   "org.xerial.snappy" % "snappy-java" % "1.1.2"
 )
 

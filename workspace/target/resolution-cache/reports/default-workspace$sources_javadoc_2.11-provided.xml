@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160107223801"/>
+		date="20160108215025"/>
 	<dependencies>
 		<module organisation="org.apache.spark" name="spark-mllib_2.11">
 			<revision name="1.6.0" status="release" pubdate="20151222113351" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="130">
@@ -423,9 +423,6 @@
 					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="102254" time="0" location="/Users/WeiChen/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5-sources.jar"/>
 					</artifact>
-					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="73098" time="0" location="/Users/WeiChen/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.5.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5.jar"/>
-					</artifact>
 					<artifact name="commons-codec" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="278245" time="0" location="/Users/WeiChen/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.5-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5-javadoc.jar"/>
 					</artifact>
@@ -535,7 +532,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-compiler">
-			<revision name="2.11.7" status="release" pubdate="20150714131959" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="96">
+			<revision name="2.11.7" status="release" pubdate="20150714131959" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="98">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="3122" time="0" location="/Users/WeiChen/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="file:/Users/WeiChen/activator-dist-1.3.6/repository/org.scala-lang/scala-compiler/2.11.7/ivys/ivy.xml"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0"/>
@@ -559,9 +556,6 @@
 				<metadata-artifact status="no" details="" size="2944" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-xc/ivy-1.8.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.8.8/jackson-xc-1.8.8.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jackson-xc" type="jar" ext="jar" status="no" details="" size="32353" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-xc/jars/jackson-xc-1.8.8.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.8.8/jackson-xc-1.8.8.jar"/>
-					</artifact>
 					<artifact name="jackson-xc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18371" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-xc/srcs/jackson-xc-1.8.8-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.8.8/jackson-xc-1.8.8-sources.jar"/>
 					</artifact>
@@ -575,9 +569,6 @@
 				<metadata-artifact status="no" details="" size="2946" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-jaxrs/ivy-1.8.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.8.8/jackson-jaxrs-1.8.8.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jackson-jaxrs" type="jar" ext="jar" status="no" details="" size="17884" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-jaxrs/jars/jackson-jaxrs-1.8.8.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.8.8/jackson-jaxrs-1.8.8.jar"/>
-					</artifact>
 					<artifact name="jackson-jaxrs" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11333" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-jaxrs/srcs/jackson-jaxrs-1.8.8-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.8.8/jackson-jaxrs-1.8.8-sources.jar"/>
 					</artifact>
@@ -585,7 +576,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-core_2.11">
-			<revision name="1.6.0" status="release" pubdate="20151222113918" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="12">
+			<revision name="1.6.0" status="release" pubdate="20151222113918" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="26">
 				<metadata-artifact status="no" details="" size="80648" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/1.6.0/spark-core_2.11-1.6.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="1.0"/>
 				<artifacts>
@@ -638,7 +629,7 @@
 			</revision>
 		</module>
 		<module organisation="org.tachyonproject" name="tachyon-client">
-			<revision name="0.8.2" status="release" pubdate="20151112065206" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="107">
+			<revision name="0.8.2" status="release" pubdate="20151112065206" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="108">
 				<metadata-artifact status="no" details="" size="14524" time="0" location="/Users/WeiChen/.ivy2/cache/org.tachyonproject/tachyon-client/ivy-0.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.0"/>
 				<artifacts>
@@ -706,7 +697,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.ivy" name="ivy">
-			<revision name="2.4.0" status="release" pubdate="20141223004010" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ant.apache.org/ivy/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="105">
+			<revision name="2.4.0" status="release" pubdate="20141223004010" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ant.apache.org/ivy/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="106">
 				<metadata-artifact status="no" details="" size="5562" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.ivy/ivy/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0"/>
 				<artifacts>
@@ -723,7 +714,7 @@
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.11">
-			<revision name="2.4.4" status="release" pubdate="20141202124118" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="104">
+			<revision name="2.4.4" status="release" pubdate="20141202124118" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="105">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4360" time="0" location="/Users/WeiChen/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.4.4/jackson-module-scala_2.11-2.4.4.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
@@ -741,7 +732,7 @@
 			</revision>
 		</module>
 		<module organisation="io.dropwizard.metrics" name="metrics-graphite">
-			<revision name="3.1.2" status="release" pubdate="20150426120008" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="103">
+			<revision name="3.1.2" status="release" pubdate="20150426120008" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="104">
 				<metadata-artifact status="no" details="" size="5230" time="0" location="/Users/WeiChen/.ivy2/cache/io.dropwizard.metrics/metrics-graphite/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0"/>
 				<artifacts>
@@ -758,7 +749,7 @@
 			</revision>
 		</module>
 		<module organisation="io.dropwizard.metrics" name="metrics-json">
-			<revision name="3.1.2" status="release" pubdate="20150426120149" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="102">
+			<revision name="3.1.2" status="release" pubdate="20150426120149" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="103">
 				<metadata-artifact status="no" details="" size="5281" time="0" location="/Users/WeiChen/.ivy2/cache/io.dropwizard.metrics/metrics-json/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-json/3.1.2/metrics-json-3.1.2.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0"/>
 				<artifacts>
@@ -775,7 +766,7 @@
 			</revision>
 		</module>
 		<module organisation="io.dropwizard.metrics" name="metrics-jvm">
-			<revision name="3.1.2" status="release" pubdate="20150426115923" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="101">
+			<revision name="3.1.2" status="release" pubdate="20150426115923" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="102">
 				<metadata-artifact status="no" details="" size="5013" time="0" location="/Users/WeiChen/.ivy2/cache/io.dropwizard.metrics/metrics-jvm/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-jvm/3.1.2/metrics-jvm-3.1.2.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0"/>
 				<artifacts>
@@ -792,7 +783,7 @@
 			</revision>
 		</module>
 		<module organisation="io.dropwizard.metrics" name="metrics-core">
-			<revision name="3.1.2" status="release" pubdate="20150426115901" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="100">
+			<revision name="3.1.2" status="release" pubdate="20150426115901" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="101">
 				<metadata-artifact status="no" details="" size="4992" time="0" location="/Users/WeiChen/.ivy2/cache/io.dropwizard.metrics/metrics-core/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0"/>
 				<artifacts>
@@ -809,7 +800,7 @@
 			</revision>
 		</module>
 		<module organisation="com.clearspring.analytics" name="stream">
-			<revision name="2.7.0" status="release" pubdate="20140523214148" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/addthis/stream-lib" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="99">
+			<revision name="2.7.0" status="release" pubdate="20140523214148" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/addthis/stream-lib" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="100">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4221" time="0" location="/Users/WeiChen/.ivy2/cache/com.clearspring.analytics/stream/ivy-2.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="1.0"/>
@@ -827,7 +818,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.mesos" name="mesos">
-			<revision name="0.21.1" status="release" pubdate="20141220041709" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mesos.apache.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="98">
+			<revision name="0.21.1" status="release" pubdate="20141220041709" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mesos.apache.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="99">
 				<metadata-artifact status="no" details="" size="3542" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.mesos/mesos/ivy-0.21.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/mesos/mesos/0.21.1/mesos-0.21.1.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="0.21.1" rev-constraint-default="0.21.1" rev-constraint-dynamic="0.21.1" callerrev="1.0"/>
 				<artifacts>
@@ -844,7 +835,7 @@
 			</revision>
 		</module>
 		<module organisation="org.json4s" name="json4s-jackson_2.11">
-			<revision name="3.2.10" status="release" pubdate="20140514012640" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="91">
+			<revision name="3.2.10" status="release" pubdate="20140514012640" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="93">
 				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
 				<metadata-artifact status="no" details="" size="2841" time="0" location="/Users/WeiChen/.ivy2/cache/org.json4s/json4s-jackson_2.11/ivy-3.2.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.11/3.2.10/json4s-jackson_2.11-3.2.10.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.2.10" rev-constraint-default="3.2.10" rev-constraint-dynamic="3.2.10" callerrev="1.0"/>
@@ -862,7 +853,7 @@
 			</revision>
 		</module>
 		<module organisation="org.json4s" name="json4s-core_2.11">
-			<revision name="3.2.10" status="release" pubdate="20140513132653" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="92">
+			<revision name="3.2.10" status="release" pubdate="20140513132653" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="94">
 				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
 				<metadata-artifact status="no" details="" size="2951" time="0" location="/Users/WeiChen/.ivy2/cache/org.json4s/json4s-core_2.11/ivy-3.2.10.xml" searched="false" origin-is-local="false" origin-location="file:/Users/WeiChen/activator-dist-1.3.6/repository/org.json4s/json4s-core_2.11/3.2.10/ivys/ivy.xml"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.2.10" rev-constraint-default="3.2.10" rev-constraint-dynamic="3.2.10" callerrev="1.0"/>
@@ -880,7 +871,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scalap">
-			<revision name="2.11.0" status="release" pubdate="20140416171427" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="95">
+			<revision name="2.11.0" status="release" pubdate="20140416171427" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="97">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="2514" time="0" location="/Users/WeiChen/.ivy2/cache/org.scala-lang/scalap/ivy-2.11.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scalap/2.11.0/scalap-2.11.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0"/>
@@ -898,7 +889,7 @@
 			</revision>
 		</module>
 		<module organisation="com.thoughtworks.paranamer" name="paranamer">
-			<revision name="2.6" status="release" pubdate="20131009115654" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="94">
+			<revision name="2.6" status="release" pubdate="20131009115654" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="96">
 				<metadata-artifact status="no" details="" size="4159" time="0" location="/Users/WeiChen/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="1.0"/>
 				<artifacts>
@@ -930,7 +921,7 @@
 			</revision>
 		</module>
 		<module organisation="org.json4s" name="json4s-ast_2.11">
-			<revision name="3.2.10" status="release" pubdate="20140513132611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="93">
+			<revision name="3.2.10" status="release" pubdate="20140513132611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="95">
 				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
 				<metadata-artifact status="no" details="" size="2511" time="0" location="/Users/WeiChen/.ivy2/cache/org.json4s/json4s-ast_2.11/ivy-3.2.10.xml" searched="false" origin-is-local="false" origin-location="file:/Users/WeiChen/activator-dist-1.3.6/repository/org.json4s/json4s-ast_2.11/3.2.10/ivys/ivy.xml"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.2.10" rev-constraint-default="3.2.10" rev-constraint-dynamic="3.2.10" callerrev="1.0"/>
@@ -948,7 +939,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-slf4j_2.11">
-			<revision name="2.3.11" status="release" pubdate="20150508105040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="90">
+			<revision name="2.3.11" status="release" pubdate="20150508105040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="92">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3065" time="0" location="/Users/WeiChen/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/ivy-2.3.11.xml" searched="false" origin-is-local="true" origin-location="/Users/WeiChen/activator-dist-1.3.6/repository/com.typesafe.akka/akka-slf4j_2.11/2.3.11/ivys/ivy.xml"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.3.11" rev-constraint-default="2.3.11" rev-constraint-dynamic="2.3.11" callerrev="1.0"/>
@@ -966,7 +957,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-remote_2.11">
-			<revision name="2.3.11" status="release" pubdate="20150508225149" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="87">
+			<revision name="2.3.11" status="release" pubdate="20150508225149" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="89">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3826" time="0" location="/Users/WeiChen/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/ivy-2.3.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.3.11" rev-constraint-default="2.3.11" rev-constraint-dynamic="2.3.11" callerrev="1.0"/>
@@ -984,7 +975,7 @@
 			</revision>
 		</module>
 		<module organisation="org.uncommons.maths" name="uncommons-maths">
-			<revision name="1.2.2a" status="release" pubdate="20110408215605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maths.uncommons.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="89">
+			<revision name="1.2.2a" status="release" pubdate="20110408215605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maths.uncommons.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="91">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2750" time="0" location="/Users/WeiChen/.ivy2/cache/org.uncommons.maths/uncommons-maths/ivy-1.2.2a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.2.2a" rev-constraint-default="1.2.2a" rev-constraint-dynamic="1.2.2a" callerrev="1.0"/>
@@ -1002,7 +993,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty">
-			<revision name="3.8.0.Final" status="release" pubdate="20131107172312" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="88">
+			<revision name="3.8.0.Final" status="release" pubdate="20131107172312" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="90">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="6521" time="0" location="/Users/WeiChen/.ivy2/cache/io.netty/netty/ivy-3.8.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.8.0.Final" rev-constraint-default="3.8.0.Final" rev-constraint-dynamic="3.8.0.Final" callerrev="1.0"/>
@@ -1020,7 +1011,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-net" name="commons-net">
-			<revision name="2.2" status="release" pubdate="20101117085516" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="86">
+			<revision name="2.2" status="release" pubdate="20101117085516" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="88">
 				<metadata-artifact status="no" details="" size="6222" time="0" location="/Users/WeiChen/.ivy2/cache/commons-net/commons-net/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-net/commons-net/2.2/commons-net-2.2.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="1.0"/>
 				<artifacts>
@@ -1030,14 +1021,11 @@
 					<artifact name="commons-net" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="377467" time="0" location="/Users/WeiChen/.ivy2/cache/commons-net/commons-net/srcs/commons-net-2.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-net/commons-net/2.2/commons-net-2.2-sources.jar"/>
 					</artifact>
-					<artifact name="commons-net" type="jar" ext="jar" status="no" details="" size="212453" time="0" location="/Users/WeiChen/.ivy2/cache/commons-net/commons-net/jars/commons-net-2.2.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-net/commons-net/2.2/commons-net-2.2.jar"/>
-					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.roaringbitmap" name="RoaringBitmap">
-			<revision name="0.5.11" status="release" pubdate="20151117083511" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lemire/RoaringBitmap" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="85">
+			<revision name="0.5.11" status="release" pubdate="20151117083511" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lemire/RoaringBitmap" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="87">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3934" time="0" location="/Users/WeiChen/.ivy2/cache/org.roaringbitmap/RoaringBitmap/ivy-0.5.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="0.5.11" rev-constraint-default="0.5.11" rev-constraint-dynamic="0.5.11" callerrev="1.0"/>
@@ -1055,7 +1043,7 @@
 			</revision>
 		</module>
 		<module organisation="com.ning" name="compress-lzf">
-			<revision name="1.0.3" status="release" pubdate="20140816123255" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/ning/compress" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="84">
+			<revision name="1.0.3" status="release" pubdate="20140816123255" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/ning/compress" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="86">
 				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3428" time="0" location="/Users/WeiChen/.ivy2/cache/com.ning/compress-lzf/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.0"/>
@@ -1073,7 +1061,7 @@
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="jcl-over-slf4j">
-			<revision name="1.7.10" status="release" pubdate="20150107041314" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="82">
+			<revision name="1.7.10" status="release" pubdate="20150107041314" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="84">
 				<metadata-artifact status="no" details="" size="4845" time="0" location="/Users/WeiChen/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="1.0"/>
 				<artifacts>
@@ -1090,7 +1078,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.commons" name="commons-math3">
-			<revision name="3.4.1" status="release" pubdate="20150109012810" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="80">
+			<revision name="3.4.1" status="release" pubdate="20150109012810" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="81">
 				<metadata-artifact status="no" details="" size="11022" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-math3/ivy-3.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="1.0"/>
 				<artifacts>
@@ -1107,7 +1095,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty.orbit" name="javax.servlet">
-			<revision name="3.0.0.v201112011016" status="release" pubdate="20111208034915" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="78">
+			<revision name="3.0.0.v201112011016" status="release" pubdate="20111208034915" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="79">
 				<metadata-artifact status="no" details="" size="3028" time="0" location="/Users/WeiChen/.ivy2/cache/org.eclipse.jetty.orbit/javax.servlet/ivy-3.0.0.v201112011016.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.0.0.v201112011016" rev-constraint-default="3.0.0.v201112011016" rev-constraint-dynamic="3.0.0.v201112011016" callerrev="1.0"/>
 				<artifacts>
@@ -1134,9 +1122,6 @@
 					<artifact name="curator-recipes" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="140078" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.curator/curator-recipes/srcs/curator-recipes-2.4.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0-sources.jar"/>
 					</artifact>
-					<artifact name="curator-recipes" type="jar" ext="jar" status="no" details="" size="241322" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.curator/curator-recipes/jars/curator-recipes-2.4.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.jar"/>
-					</artifact>
 				</artifacts>
 			</revision>
 		</module>
@@ -1147,9 +1132,6 @@
 				<artifacts>
 					<artifact name="curator-framework" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116042" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.curator/curator-framework/srcs/curator-framework-2.4.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0-sources.jar"/>
-					</artifact>
-					<artifact name="curator-framework" type="jar" ext="jar" status="no" details="" size="179720" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.curator/curator-framework/jars/curator-framework-2.4.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0.jar"/>
 					</artifact>
 					<artifact name="curator-framework" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="394840" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.curator/curator-framework/docs/curator-framework-2.4.0-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0-javadoc.jar"/>
@@ -1168,9 +1150,6 @@
 					<artifact name="curator-client" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="250539" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.curator/curator-client/docs/curator-client-2.4.0-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0-javadoc.jar"/>
 					</artifact>
-					<artifact name="curator-client" type="jar" ext="jar" status="no" details="" size="67254" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.curator/curator-client/jars/curator-client-2.4.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0.jar"/>
-					</artifact>
 				</artifacts>
 			</revision>
 		</module>
@@ -1180,9 +1159,6 @@
 				<metadata-artifact status="no" details="" size="3074" time="0" location="/Users/WeiChen/.ivy2/cache/net.java.dev.jets3t/jets3t/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jets3t" type="jar" ext="jar" status="no" details="" size="377780" time="0" location="/Users/WeiChen/.ivy2/cache/net.java.dev.jets3t/jets3t/jars/jets3t-0.7.1.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar"/>
-					</artifact>
 					<artifact name="jets3t" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="560244" time="0" location="/Users/WeiChen/.ivy2/cache/net.java.dev.jets3t/jets3t/srcs/jets3t-0.7.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1-sources.jar"/>
 					</artifact>
@@ -1207,35 +1183,15 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.commons" name="commons-lang3">
-			<revision name="3.3.2" status="release" pubdate="20140406202129" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="79">
+			<revision name="3.3.2" status="release" pubdate="20140406202129" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="80">
 				<metadata-artifact status="no" details="" size="10428" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="commons-lang3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1074965" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-lang3/docs/commons-lang3-3.3.2-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-javadoc.jar"/>
 					</artifact>
-					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="412739" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.3.2.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"/>
-					</artifact>
 					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="470961" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.3.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="commons-io" name="commons-io">
-			<revision name="2.4" status="release" pubdate="20120613062206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="108">
-				<metadata-artifact status="no" details="" size="8463" time="0" location="/Users/WeiChen/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="246635" time="0" location="/Users/WeiChen/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.4-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar"/>
-					</artifact>
-					<artifact name="commons-io" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="724124" time="0" location="/Users/WeiChen/.ivy2/cache/commons-io/commons-io/docs/commons-io-2.4-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar"/>
-					</artifact>
-					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="/Users/WeiChen/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1377,7 +1333,7 @@
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="jul-to-slf4j">
-			<revision name="1.7.10" status="release" pubdate="20150107041407" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="81">
+			<revision name="1.7.10" status="release" pubdate="20150107041407" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="83">
 				<metadata-artifact status="no" details="" size="4884" time="0" location="/Users/WeiChen/.ivy2/cache/org.slf4j/jul-to-slf4j/ivy-1.7.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="1.0"/>
 				<artifacts>
@@ -1394,7 +1350,7 @@
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="slf4j-log4j12">
-			<revision name="1.7.10" status="release" pubdate="20150107041207" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="83">
+			<revision name="1.7.10" status="release" pubdate="20150107041207" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="85">
 				<metadata-artifact status="no" details="" size="4846" time="0" location="/Users/WeiChen/.ivy2/cache/org.slf4j/slf4j-log4j12/ivy-1.7.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="1.0"/>
 				<artifacts>
@@ -1410,8 +1366,25 @@
 				</artifacts>
 			</revision>
 		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.10" status="release" pubdate="20150107041107" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="82">
+				<metadata-artifact status="no" details="" size="4667" time="0" location="/Users/WeiChen/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="211222" time="0" location="/Users/WeiChen/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.10-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10-javadoc.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50644" time="0" location="/Users/WeiChen/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="32119" time="0" location="/Users/WeiChen/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-client">
-			<revision name="2.2.0" status="release" pubdate="20131007143903" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="27">
+			<revision name="2.2.0" status="release" pubdate="20131007143903" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="37">
 				<metadata-artifact status="no" details="" size="33084" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-client/ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-client/2.2.0/hadoop-client-2.2.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
@@ -1442,7 +1415,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-app">
-			<revision name="2.2.0" status="release" pubdate="20131007143711" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="42">
+			<revision name="2.2.0" status="release" pubdate="20131007143711" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="45">
 				<metadata-artifact status="no" details="" size="29405" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
@@ -1460,7 +1433,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-shuffle">
 			<revision name="2.2.0" status="release" pubdate="20131007143703" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="60">
-				<metadata-artifact status="successful" details="" size="1675" time="709" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml" searched="true" original-local-location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="1675" time="674" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml" searched="true" original-local-location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-shuffle" type="jar" ext="jar" status="no" details="" size="21537" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/jars/hadoop-mapreduce-client-shuffle-2.2.0.jar">
@@ -1477,7 +1450,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-nodemanager">
 			<revision name="2.2.0" status="release" pubdate="20131007143538" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="62">
-				<metadata-artifact status="successful" details="" size="7324" time="1803" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml" searched="true" original-local-location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="7324" time="673" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml" searched="true" original-local-location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-server-nodemanager" type="jar" ext="jar" status="no" details="" size="467638" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/jars/hadoop-yarn-server-nodemanager-2.2.0.jar">
@@ -1493,8 +1466,8 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-common">
-			<revision name="2.2.0" status="release" pubdate="20131007143659" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="43">
-				<metadata-artifact status="successful" details="" size="3273" time="742" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml" searched="true" original-local-location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
+			<revision name="2.2.0" status="release" pubdate="20131007143659" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="46">
+				<metadata-artifact status="successful" details="" size="3273" time="674" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml" searched="true" original-local-location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-common" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3225841" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/docs/hadoop-mapreduce-client-common-2.2.0-javadoc.jar">
@@ -1561,8 +1534,8 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-common">
-			<revision name="2.2.0" status="release" pubdate="20131007143515" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="44">
-				<metadata-artifact status="successful" details="" size="5032" time="1279" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml" searched="true" original-local-location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
+			<revision name="2.2.0" status="release" pubdate="20131007143515" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="47">
+				<metadata-artifact status="successful" details="" size="5032" time="681" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml" searched="true" original-local-location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-common" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="6749818" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/docs/hadoop-yarn-common-2.2.0-javadoc.jar">
@@ -1578,8 +1551,8 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-api">
-			<revision name="2.2.0" status="release" pubdate="20131007143452" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="45">
-				<metadata-artifact status="successful" details="" size="2956" time="804" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml" searched="true" original-local-location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
+			<revision name="2.2.0" status="release" pubdate="20131007143452" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="48">
+				<metadata-artifact status="successful" details="" size="2956" time="673" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml" searched="true" original-local-location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-api" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="5619916" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/docs/hadoop-yarn-api-2.2.0-javadoc.jar">
@@ -1612,7 +1585,7 @@
 			</revision>
 		</module>
 		<module organisation="com.sun.jersey.jersey-test-framework" name="jersey-test-framework-grizzly2">
-			<revision name="1.9" status="release" pubdate="20110902192052" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="50">
+			<revision name="1.9" status="release" pubdate="20110902192052" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="53">
 				<metadata-artifact status="no" details="" size="4574" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey.jersey-test-framework/jersey-test-framework-grizzly2/ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.9/jersey-test-framework-grizzly2-1.9.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0"/>
 				<artifacts>
@@ -1629,7 +1602,7 @@
 			</revision>
 		</module>
 		<module organisation="com.google.inject" name="guice">
-			<revision name="3.0" status="release" pubdate="20110326021947" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="46">
+			<revision name="3.0" status="release" pubdate="20110326021947" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="49">
 				<metadata-artifact status="no" details="" size="3997" time="0" location="/Users/WeiChen/.ivy2/cache/com.google.inject/guice/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="1.0"/>
 				<artifacts>
@@ -1646,7 +1619,7 @@
 			</revision>
 		</module>
 		<module organisation="org.sonatype.sisu.inject" name="cglib">
-			<revision name="2.2.1-v20090111" status="release" pubdate="20110104211244" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sourceforge.net/projects/cglib/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="49">
+			<revision name="2.2.1-v20090111" status="release" pubdate="20110104211244" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sourceforge.net/projects/cglib/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="52">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3800" time="0" location="/Users/WeiChen/.ivy2/cache/org.sonatype.sisu.inject/cglib/ivy-2.2.1-v20090111.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/sisu/inject/cglib/2.2.1-v20090111/cglib-2.2.1-v20090111.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.2.1-v20090111" rev-constraint-default="2.2.1-v20090111" rev-constraint-dynamic="2.2.1-v20090111" callerrev="1.0"/>
@@ -1664,7 +1637,7 @@
 			</revision>
 		</module>
 		<module organisation="aopalliance" name="aopalliance">
-			<revision name="1.0" status="release" pubdate="20070227064340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="48">
+			<revision name="1.0" status="release" pubdate="20070227064340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="51">
 				<license name="Public Domain"/>
 				<metadata-artifact status="no" details="" size="2291" time="0" location="/Users/WeiChen/.ivy2/cache/aopalliance/aopalliance/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
@@ -1679,7 +1652,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-hdfs">
-			<revision name="2.2.0" status="release" pubdate="20131007143230" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="40">
+			<revision name="2.2.0" status="release" pubdate="20131007143230" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="44">
 				<metadata-artifact status="no" details="" size="30772" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-hdfs/ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
@@ -1696,13 +1669,10 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-common">
-			<revision name="2.2.0" status="release" pubdate="20131007143027" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="28">
+			<revision name="2.2.0" status="release" pubdate="20131007143027" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="38">
 				<metadata-artifact status="no" details="" size="32703" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-common/ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="hadoop-common" type="jar" ext="jar" status="no" details="" size="2735584" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.jar"/>
-					</artifact>
 					<artifact name="hadoop-common" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="47596648" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-common/docs/hadoop-common-2.2.0-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0-javadoc.jar"/>
 					</artifact>
@@ -1717,9 +1687,6 @@
 				<metadata-artifact status="no" details="" size="3972" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.zookeeper/zookeeper/ivy-3.4.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.4.5" rev-constraint-default="3.4.5" rev-constraint-dynamic="3.4.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="zookeeper" type="jar" ext="jar" status="no" details="" size="779974" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.zookeeper/zookeeper/jars/zookeeper-3.4.5.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar"/>
-					</artifact>
 					<artifact name="zookeeper" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="543110" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.zookeeper/zookeeper/srcs/zookeeper-3.4.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5-sources.jar"/>
 					</artifact>
@@ -1729,14 +1696,23 @@
 				</artifacts>
 			</revision>
 		</module>
+		<module organisation="jline" name="jline">
+			<revision name="0.9.94" status="release" pubdate="20080223035343" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jline.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="77">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2842" time="0" location="/Users/WeiChen/.ivy2/cache/jline/jline/ivy-0.9.94.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="0.9.94" rev-constraint-default="0.9.94" rev-constraint-dynamic="0.9.94" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jline" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="76456" time="0" location="/Users/WeiChen/.ivy2/cache/jline/jline/srcs/jline-0.9.94-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-auth">
-			<revision name="2.2.0" status="release" pubdate="20131007142854" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="39">
+			<revision name="2.2.0" status="release" pubdate="20131007142854" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="43">
 				<metadata-artifact status="no" details="" size="33377" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-auth/ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="hadoop-auth" type="jar" ext="jar" status="no" details="" size="49750" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-auth/jars/hadoop-auth-2.2.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.jar"/>
-					</artifact>
 					<artifact name="hadoop-auth" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37782" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-auth/srcs/hadoop-auth-2.2.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0-sources.jar"/>
 					</artifact>
@@ -1746,96 +1722,11 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="com.google.protobuf" name="protobuf-java">
-			<revision name="2.5.0" status="release" pubdate="20130308081811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="38">
-				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
-				<metadata-artifact status="no" details="" size="3013" time="0" location="/Users/WeiChen/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="protobuf-java" type="jar" ext="jar" status="no" details="" size="533455" time="0" location="/Users/WeiChen/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.5.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar"/>
-					</artifact>
-					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="276990" time="0" location="/Users/WeiChen/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.5.0-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar"/>
-					</artifact>
-					<artifact name="protobuf-java" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1212478" time="0" location="/Users/WeiChen/.ivy2/cache/com.google.protobuf/protobuf-java/docs/protobuf-java-2.5.0-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="commons-configuration" name="commons-configuration">
-			<revision name="1.6" status="release" pubdate="20090205034444" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/${pom.artifactId.substring(8)}/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="34">
-				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
-				<metadata-artifact status="no" details="" size="5678" time="0" location="/Users/WeiChen/.ivy2/cache/commons-configuration/commons-configuration/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="commons-configuration" type="jar" ext="jar" status="no" details="" size="298829" time="0" location="/Users/WeiChen/.ivy2/cache/commons-configuration/commons-configuration/jars/commons-configuration-1.6.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar"/>
-					</artifact>
-					<artifact name="commons-configuration" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="316787" time="0" location="/Users/WeiChen/.ivy2/cache/commons-configuration/commons-configuration/srcs/commons-configuration-1.6-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="commons-digester" name="commons-digester">
-			<revision name="1.8" status="release" pubdate="20061204023311" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/digester/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="36">
-				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
-				<metadata-artifact status="no" details="" size="3225" time="0" location="/Users/WeiChen/.ivy2/cache/commons-digester/commons-digester/ivy-1.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="commons-digester" type="jar" ext="jar" status="no" details="" size="143602" time="0" location="/Users/WeiChen/.ivy2/cache/commons-digester/commons-digester/jars/commons-digester-1.8.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar"/>
-					</artifact>
-					<artifact name="commons-digester" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="203671" time="0" location="/Users/WeiChen/.ivy2/cache/commons-digester/commons-digester/srcs/commons-digester-1.8-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="commons-beanutils" name="commons-beanutils">
-			<revision name="1.7.0" status="release" pubdate="20051109062021" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="37">
-				<metadata-artifact status="no" details="" size="2394" time="0" location="/Users/WeiChen/.ivy2/cache/commons-beanutils/commons-beanutils/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="commons-beanutils" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="412044" time="0" location="/Users/WeiChen/.ivy2/cache/commons-beanutils/commons-beanutils/docs/commons-beanutils-1.7.0-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-javadoc.jar"/>
-					</artifact>
-					<artifact name="commons-beanutils" type="jar" ext="jar" status="no" details="" size="188671" time="0" location="/Users/WeiChen/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar"/>
-					</artifact>
-					<artifact name="commons-beanutils" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="195349" time="0" location="/Users/WeiChen/.ivy2/cache/commons-beanutils/commons-beanutils/srcs/commons-beanutils-1.7.0-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="commons-collections" name="commons-collections">
-			<revision name="3.2.1" status="release" pubdate="20080415090924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="35">
-				<metadata-artifact status="no" details="" size="4590" time="0" location="/Users/WeiChen/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="commons-collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="641582" time="0" location="/Users/WeiChen/.ivy2/cache/commons-collections/commons-collections/srcs/commons-collections-3.2.1-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar"/>
-					</artifact>
-					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="/Users/WeiChen/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
-					</artifact>
-					<artifact name="commons-collections" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2028934" time="0" location="/Users/WeiChen/.ivy2/cache/commons-collections/commons-collections/docs/commons-collections-3.2.1-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="commons-lang" name="commons-lang">
-			<revision name="2.5" status="release" pubdate="20100225092344" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="33">
+			<revision name="2.5" status="release" pubdate="20100225092344" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="41">
 				<metadata-artifact status="no" details="" size="5022" time="0" location="/Users/WeiChen/.ivy2/cache/commons-lang/commons-lang/ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.5/commons-lang-2.5.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="279193" time="0" location="/Users/WeiChen/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.5.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.5/commons-lang-2.5.jar"/>
-					</artifact>
 					<artifact name="commons-lang" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="365951" time="0" location="/Users/WeiChen/.ivy2/cache/commons-lang/commons-lang/srcs/commons-lang-2.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.5/commons-lang-2.5-sources.jar"/>
 					</artifact>
@@ -1845,99 +1736,13 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="com.sun.jersey" name="jersey-server">
-			<revision name="1.9" status="release" pubdate="20110902191728" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="51">
-				<metadata-artifact status="no" details="" size="6321" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-server/ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="jersey-server" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1079766" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-server/docs/jersey-server-1.9-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9-javadoc.jar"/>
-					</artifact>
-					<artifact name="jersey-server" type="jar" ext="jar" status="no" details="" size="713089" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-server/jars/jersey-server-1.9.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar"/>
-					</artifact>
-					<artifact name="jersey-server" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="658444" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-server/srcs/jersey-server-1.9-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.sun.jersey" name="jersey-json">
-			<revision name="1.9" status="release" pubdate="20110902192700" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="52">
-				<metadata-artifact status="no" details="" size="5817" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-json/ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="jersey-json" type="jar" ext="jar" status="no" details="" size="147952" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-json/jars/jersey-json-1.9.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar"/>
-					</artifact>
-					<artifact name="jersey-json" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="90392" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-json/docs/jersey-json-1.9-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9-javadoc.jar"/>
-					</artifact>
-					<artifact name="jersey-json" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="113614" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-json/srcs/jersey-json-1.9-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.codehaus.jettison" name="jettison">
-			<revision name="1.1" status="release" pubdate="20090421005050" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="53">
-				<metadata-artifact status="no" details="" size="2745" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jettison/jettison/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="jettison" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63298" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jettison/jettison/srcs/jettison-1.1-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1-sources.jar"/>
-					</artifact>
-					<artifact name="jettison" type="jar" ext="jar" status="no" details="" size="67758" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jettison/jettison/jars/jettison-1.1.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar"/>
-					</artifact>
-					<artifact name="jettison" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="237558" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jettison/jettison/docs/jettison-1.1-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.sun.jersey" name="jersey-core">
-			<revision name="1.9" status="release" pubdate="20110902191655" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="97">
-				<metadata-artifact status="no" details="" size="5441" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-core/ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="jersey-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="431251" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-core/srcs/jersey-core-1.9-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9-sources.jar"/>
-					</artifact>
-					<artifact name="jersey-core" type="jar" ext="jar" status="no" details="" size="458739" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-core/jars/jersey-core-1.9.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar"/>
-					</artifact>
-					<artifact name="jersey-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1148485" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-core/docs/jersey-core-1.9-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="commons-httpclient" name="commons-httpclient">
-			<revision name="3.1" status="release" pubdate="20070821214407" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/httpcomponents/httpclient-3.x/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="32">
-				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="3171" time="0" location="/Users/WeiChen/.ivy2/cache/commons-httpclient/commons-httpclient/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="commons-httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="439405" time="0" location="/Users/WeiChen/.ivy2/cache/commons-httpclient/commons-httpclient/srcs/commons-httpclient-3.1-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar"/>
-					</artifact>
-					<artifact name="commons-httpclient" type="jar" ext="jar" status="no" details="" size="305001" time="0" location="/Users/WeiChen/.ivy2/cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="org.apache.commons" name="commons-math">
-			<revision name="2.1" status="release" pubdate="20100328104801" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/math/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="31">
+			<revision name="2.1" status="release" pubdate="20100328104801" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/math/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="40">
 				<metadata-artifact status="no" details="" size="5893" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-math/ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="commons-math" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1027714" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-math/srcs/commons-math-2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1-sources.jar"/>
-					</artifact>
-					<artifact name="commons-math" type="jar" ext="jar" status="no" details="" size="832410" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-math/jars/commons-math-2.1.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.jar"/>
 					</artifact>
 					<artifact name="commons-math" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4902253" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-math/docs/commons-math-2.1-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1-javadoc.jar"/>
@@ -1945,25 +1750,8 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="commons-cli" name="commons-cli">
-			<revision name="1.2" status="release" pubdate="20090320040832" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/cli/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="30">
-				<metadata-artifact status="no" details="" size="4456" time="0" location="/Users/WeiChen/.ivy2/cache/commons-cli/commons-cli/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="commons-cli" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="214274" time="0" location="/Users/WeiChen/.ivy2/cache/commons-cli/commons-cli/docs/commons-cli-1.2-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-javadoc.jar"/>
-					</artifact>
-					<artifact name="commons-cli" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="48726" time="0" location="/Users/WeiChen/.ivy2/cache/commons-cli/commons-cli/srcs/commons-cli-1.2-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar"/>
-					</artifact>
-					<artifact name="commons-cli" type="jar" ext="jar" status="no" details="" size="41123" time="0" location="/Users/WeiChen/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-annotations">
-			<revision name="2.2.0" status="release" pubdate="20131007142841" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="29">
+			<revision name="2.2.0" status="release" pubdate="20131007142841" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="39">
 				<metadata-artifact status="no" details="" size="31437" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-annotations/ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
@@ -1973,14 +1761,11 @@
 					<artifact name="hadoop-annotations" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="112723" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-annotations/docs/hadoop-annotations-2.2.0-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0-javadoc.jar"/>
 					</artifact>
-					<artifact name="hadoop-annotations" type="jar" ext="jar" status="no" details="" size="16778" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.hadoop/hadoop-annotations/jars/hadoop-annotations-2.2.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.jar"/>
-					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.xbean" name="xbean-asm5-shaded">
-			<revision name="4.4" status="release" pubdate="20150910124801" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="26">
+			<revision name="4.4" status="release" pubdate="20150910124801" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="36">
 				<license name="Unknown License" url="http://asm.ow2.org/license.html"/>
 				<license name="Unknown License" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="11989" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.xbean/xbean-asm5-shaded/ivy-4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.pom"/>
@@ -1996,7 +1781,7 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="chill_2.11">
-			<revision name="0.5.0" status="release" pubdate="20140910104351" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/chill" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="20">
+			<revision name="0.5.0" status="release" pubdate="20140910104351" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/chill" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="30">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3046" time="0" location="/Users/WeiChen/.ivy2/cache/com.twitter/chill_2.11/ivy-0.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/chill_2.11/0.5.0/chill_2.11-0.5.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0"/>
@@ -2014,7 +1799,7 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="chill-java">
-			<revision name="0.5.0" status="release" pubdate="20140910104338" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/chill" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="21">
+			<revision name="0.5.0" status="release" pubdate="20140910104338" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/chill" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="31">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2764" time="0" location="/Users/WeiChen/.ivy2/cache/com.twitter/chill-java/ivy-0.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/chill-java/0.5.0/chill-java-0.5.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0"/>
@@ -2032,7 +1817,7 @@
 			</revision>
 		</module>
 		<module organisation="com.esotericsoftware.kryo" name="kryo">
-			<revision name="2.21" status="release" pubdate="20130228044753" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/kryo/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="22">
+			<revision name="2.21" status="release" pubdate="20130228044753" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/kryo/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="32">
 				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
 				<metadata-artifact status="no" details="" size="3628" time="0" location="/Users/WeiChen/.ivy2/cache/com.esotericsoftware.kryo/kryo/ivy-2.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.21" rev-constraint-default="2.21" rev-constraint-dynamic="2.21" callerrev="1.0"/>
@@ -2050,7 +1835,7 @@
 			</revision>
 		</module>
 		<module organisation="org.objenesis" name="objenesis">
-			<revision name="1.2" status="release" pubdate="20090827065019" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://objenesis.googlecode.com/svn/docs/index.html" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="25">
+			<revision name="1.2" status="release" pubdate="20090827065019" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://objenesis.googlecode.com/svn/docs/index.html" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="35">
 				<metadata-artifact status="no" details="" size="3163" time="0" location="/Users/WeiChen/.ivy2/cache/org.objenesis/objenesis/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0"/>
 				<artifacts>
@@ -2067,7 +1852,7 @@
 			</revision>
 		</module>
 		<module organisation="com.esotericsoftware.minlog" name="minlog">
-			<revision name="1.2" status="release" pubdate="20120531202649" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/minlog/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="24">
+			<revision name="1.2" status="release" pubdate="20120531202649" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/minlog/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="34">
 				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
 				<metadata-artifact status="no" details="" size="2539" time="0" location="/Users/WeiChen/.ivy2/cache/com.esotericsoftware.minlog/minlog/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0"/>
@@ -2085,7 +1870,7 @@
 			</revision>
 		</module>
 		<module organisation="com.esotericsoftware.reflectasm" name="reflectasm">
-			<revision name="1.07" status="release" pubdate="20120619162452" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/reflectasm/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="23">
+			<revision name="1.07" status="release" pubdate="20120619162452" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/reflectasm/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="33">
 				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
 				<metadata-artifact status="no" details="" size="2949" time="0" location="/Users/WeiChen/.ivy2/cache/com.esotericsoftware.reflectasm/reflectasm/ivy-1.07.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.07" rev-constraint-default="1.07" rev-constraint-dynamic="1.07" callerrev="1.0"/>
@@ -2103,7 +1888,7 @@
 			</revision>
 		</module>
 		<module organisation="com.google.guava" name="guava">
-			<revision name="14.0.1" status="release" pubdate="20130315075719" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="77">
+			<revision name="14.0.1" status="release" pubdate="20130315075719" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="78">
 				<metadata-artifact status="no" details="" size="3663" time="0" location="/Users/WeiChen/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="1.0"/>
 				<artifacts>
@@ -2120,7 +1905,7 @@
 			</revision>
 		</module>
 		<module organisation="javax.inject" name="javax.inject">
-			<revision name="1" status="release" pubdate="20091014073500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="47">
+			<revision name="1" status="release" pubdate="20091014073500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="50">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2380" time="0" location="/Users/WeiChen/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="1.0"/>
@@ -2138,7 +1923,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.avro" name="avro-mapred">
-			<revision name="1.7.7" status="release" pubdate="20140719040958" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="13">
+			<revision name="1.7.7" status="release" pubdate="20140719040958" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="27">
 				<metadata-artifact status="no" details="" size="11134" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.avro/avro-mapred/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.0"/>
 				<artifacts>
@@ -2155,7 +1940,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.avro" name="avro-ipc">
-			<revision name="1.7.7" status="release" pubdate="20140719040935" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="14">
+			<revision name="1.7.7" status="release" pubdate="20140719040935" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="28">
 				<metadata-artifact status="no" details="" size="11870" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.avro/avro-ipc/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.0"/>
 				<artifacts>
@@ -2171,25 +1956,8 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.mortbay.jetty" name="jetty-util">
-			<revision name="6.1.26" status="release" pubdate="20101111053810" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="41">
-				<metadata-artifact status="no" details="" size="7156" time="0" location="/Users/WeiChen/.ivy2/cache/org.mortbay.jetty/jetty-util/ivy-6.1.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="jetty-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="123338" time="0" location="/Users/WeiChen/.ivy2/cache/org.mortbay.jetty/jetty-util/srcs/jetty-util-6.1.26-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26-sources.jar"/>
-					</artifact>
-					<artifact name="jetty-util" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="444864" time="0" location="/Users/WeiChen/.ivy2/cache/org.mortbay.jetty/jetty-util/docs/jetty-util-6.1.26-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26-javadoc.jar"/>
-					</artifact>
-					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="177131" time="0" location="/Users/WeiChen/.ivy2/cache/org.mortbay.jetty/jetty-util/jars/jetty-util-6.1.26.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="org.apache.avro" name="avro">
-			<revision name="1.7.7" status="release" pubdate="20140719040856" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="15">
+			<revision name="1.7.7" status="release" pubdate="20140719040856" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="29">
 				<metadata-artifact status="no" details="" size="12214" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.avro/avro/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.0"/>
 				<artifacts>
@@ -2205,79 +1973,8 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.apache.commons" name="commons-compress">
-			<revision name="1.4.1" status="release" pubdate="20120522125732" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/compress/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="18">
-				<metadata-artifact status="no" details="" size="7900" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="commons-compress" type="jar" ext="jar" status="no" details="" size="241367" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.4.1.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar"/>
-					</artifact>
-					<artifact name="commons-compress" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="264972" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.4.1-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1-sources.jar"/>
-					</artifact>
-					<artifact name="commons-compress" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1137394" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-compress/docs/commons-compress-1.4.1-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.tukaani" name="xz">
-			<revision name="1.0" status="release" pubdate="20111022174446" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="19">
-				<license name="Public Domain"/>
-				<metadata-artifact status="no" details="" size="2277" time="0" location="/Users/WeiChen/.ivy2/cache/org.tukaani/xz/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="xz" type="jar" ext="jar" status="no" details="" size="94672" time="0" location="/Users/WeiChen/.ivy2/cache/org.tukaani/xz/jars/xz-1.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.jar"/>
-					</artifact>
-					<artifact name="xz" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="117688" time="0" location="/Users/WeiChen/.ivy2/cache/org.tukaani/xz/docs/xz-1.0-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0-javadoc.jar"/>
-					</artifact>
-					<artifact name="xz" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="119146" time="0" location="/Users/WeiChen/.ivy2/cache/org.tukaani/xz/srcs/xz-1.0-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
-			<revision name="1.9.13" status="release" pubdate="20130715110750" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="17">
-				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="2661" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="jackson-mapper-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="548251" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/srcs/jackson-mapper-asl-1.9.13-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar"/>
-					</artifact>
-					<artifact name="jackson-mapper-asl" type="jar" ext="jar" status="no" details="" size="780664" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.13.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar"/>
-					</artifact>
-					<artifact name="jackson-mapper-asl" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4376879" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/docs/jackson-mapper-asl-1.9.13-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
-			<revision name="1.9.13" status="release" pubdate="20130715110730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="16">
-				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="2438" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="jackson-core-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="240367" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/srcs/jackson-core-asl-1.9.13-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-sources.jar"/>
-					</artifact>
-					<artifact name="jackson-core-asl" type="jar" ext="jar" status="no" details="" size="232248" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.13.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar"/>
-					</artifact>
-					<artifact name="jackson-core-asl" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4376879" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/docs/jackson-core-asl-1.9.13-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="org.xerial.snappy" name="snappy-java">
-			<revision name="1.1.2" status="release" pubdate="20150923043243" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">
+			<revision name="1.1.2" status="release" pubdate="20150923043243" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="25">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3322" time="0" location="/Users/WeiChen/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="1.0"/>
@@ -2294,72 +1991,8 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.slf4j" name="slf4j-api">
-			<revision name="1.7.10" status="release" pubdate="20150107041107" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="10">
-				<metadata-artifact status="no" details="" size="4667" time="0" location="/Users/WeiChen/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="slf4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="211222" time="0" location="/Users/WeiChen/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.10-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10-javadoc.jar"/>
-					</artifact>
-					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50644" time="0" location="/Users/WeiChen/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.10-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10-sources.jar"/>
-					</artifact>
-					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="32119" time="0" location="/Users/WeiChen/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.10.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="jline" name="jline">
-			<revision name="0.9.94" status="release" pubdate="20080223035343" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jline.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="9">
-				<license name="BSD" url="LICENSE.txt"/>
-				<metadata-artifact status="no" details="" size="2842" time="0" location="/Users/WeiChen/.ivy2/cache/jline/jline/ivy-0.9.94.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="0.9.94" rev-constraint-default="0.9.94" rev-constraint-dynamic="0.9.94" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="jline" type="jar" ext="jar" status="no" details="" size="87325" time="0" location="/Users/WeiChen/.ivy2/cache/jline/jline/jars/jline-0.9.94.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.jar"/>
-					</artifact>
-					<artifact name="jline" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="76456" time="0" location="/Users/WeiChen/.ivy2/cache/jline/jline/srcs/jline-0.9.94-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="log4j" name="log4j">
-			<revision name="1.2.17" status="release" pubdate="20120526174339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="8">
-				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3544" time="0" location="/Users/WeiChen/.ivy2/cache/log4j/log4j/ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="log4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="481200" time="0" location="/Users/WeiChen/.ivy2/cache/log4j/log4j/srcs/log4j-1.2.17-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
-					</artifact>
-					<artifact name="log4j" type="jar" ext="jar" status="no" details="" size="489884" time="0" location="/Users/WeiChen/.ivy2/cache/log4j/log4j/jars/log4j-1.2.17.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
-					</artifact>
-					<artifact name="log4j" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1491397" time="0" location="/Users/WeiChen/.ivy2/cache/log4j/log4j/docs/log4j-1.2.17-javadoc.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="oro" name="oro">
-			<revision name="2.0.8" status="release" pubdate="20051109062901" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="106">
-				<metadata-artifact status="no" details="" size="2170" time="0" location="/Users/WeiChen/.ivy2/cache/oro/oro/ivy-2.0.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.pom"/>
-				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.0.8" rev-constraint-default="2.0.8" rev-constraint-dynamic="2.0.8" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="oro" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="239964" time="0" location="/Users/WeiChen/.ivy2/cache/oro/oro/srcs/oro-2.0.8-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8-sources.jar"/>
-					</artifact>
-					<artifact name="oro" type="jar" ext="jar" status="no" details="" size="65261" time="0" location="/Users/WeiChen/.ivy2/cache/oro/oro/jars/oro-2.0.8.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="net.jpountz.lz4" name="lz4">
-			<revision name="1.3.0" status="release" pubdate="20141127044014" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jpountz/lz4-java" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="7">
+			<revision name="1.3.0" status="release" pubdate="20141127044014" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jpountz/lz4-java" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="24">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2612" time="0" location="/Users/WeiChen/.ivy2/cache/net.jpountz.lz4/lz4/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.pom"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="1.0"/>
@@ -2377,7 +2010,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
-			<revision name="1.0.4" status="release" pubdate="20150714132016" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+			<revision name="1.0.4" status="release" pubdate="20150714132016" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="23">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="2792" time="0" location="/Users/WeiChen/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="file:/Users/WeiChen/activator-dist-1.3.6/repository/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/ivys/ivy.xml"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0"/>
@@ -2395,7 +2028,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
-			<revision name="1.0.4" status="release" pubdate="20150714132013" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+			<revision name="1.0.4" status="release" pubdate="20150714132013" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="22">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="3000" time="0" location="/Users/WeiChen/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="file:/Users/WeiChen/activator-dist-1.3.6/repository/org.scala-lang.modules/scala-xml_2.11/1.0.4/ivys/ivy.xml"/>
 				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0"/>
@@ -2408,6 +2041,322 @@
 					</artifact>
 					<artifact name="scala-xml_2.11" type="jar" ext="jar" status="no" details="" size="647891" time="0" location="/Users/WeiChen/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/jars/scala-xml_2.11-1.0.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.4.1" status="release" pubdate="20120522125732" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/compress/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="20">
+				<metadata-artifact status="no" details="" size="7900" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-compress" type="jar" ext="jar" status="no" details="" size="241367" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar"/>
+					</artifact>
+					<artifact name="commons-compress" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="264972" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1-sources.jar"/>
+					</artifact>
+					<artifact name="commons-compress" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1137394" time="0" location="/Users/WeiChen/.ivy2/cache/org.apache.commons/commons-compress/docs/commons-compress-1.4.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.0" status="release" pubdate="20111022174446" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="21">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2277" time="0" location="/Users/WeiChen/.ivy2/cache/org.tukaani/xz/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="xz" type="jar" ext="jar" status="no" details="" size="94672" time="0" location="/Users/WeiChen/.ivy2/cache/org.tukaani/xz/jars/xz-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.jar"/>
+					</artifact>
+					<artifact name="xz" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="117688" time="0" location="/Users/WeiChen/.ivy2/cache/org.tukaani/xz/docs/xz-1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="xz" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="119146" time="0" location="/Users/WeiChen/.ivy2/cache/org.tukaani/xz/srcs/xz-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715110750" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2661" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="548251" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/srcs/jackson-mapper-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-mapper-asl" type="jar" ext="jar" status="no" details="" size="780664" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar"/>
+					</artifact>
+					<artifact name="jackson-mapper-asl" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4376879" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/docs/jackson-mapper-asl-1.9.13-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715110730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="18">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2438" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="240367" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/srcs/jackson-core-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-core-asl" type="jar" ext="jar" status="no" details="" size="232248" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar"/>
+					</artifact>
+					<artifact name="jackson-core-asl" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4376879" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/docs/jackson-core-asl-1.9.13-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-configuration" name="commons-configuration">
+			<revision name="1.6" status="release" pubdate="20090205034444" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/${pom.artifactId.substring(8)}/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="15">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="5678" time="0" location="/Users/WeiChen/.ivy2/cache/commons-configuration/commons-configuration/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-configuration" type="jar" ext="jar" status="no" details="" size="298829" time="0" location="/Users/WeiChen/.ivy2/cache/commons-configuration/commons-configuration/jars/commons-configuration-1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar"/>
+					</artifact>
+					<artifact name="commons-configuration" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="316787" time="0" location="/Users/WeiChen/.ivy2/cache/commons-configuration/commons-configuration/srcs/commons-configuration-1.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-digester" name="commons-digester">
+			<revision name="1.8" status="release" pubdate="20061204023311" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/digester/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3225" time="0" location="/Users/WeiChen/.ivy2/cache/commons-digester/commons-digester/ivy-1.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-digester" type="jar" ext="jar" status="no" details="" size="143602" time="0" location="/Users/WeiChen/.ivy2/cache/commons-digester/commons-digester/jars/commons-digester-1.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar"/>
+					</artifact>
+					<artifact name="commons-digester" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="203671" time="0" location="/Users/WeiChen/.ivy2/cache/commons-digester/commons-digester/srcs/commons-digester-1.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-beanutils" name="commons-beanutils">
+			<revision name="1.7.0" status="release" pubdate="20051109062021" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="17">
+				<metadata-artifact status="no" details="" size="2394" time="0" location="/Users/WeiChen/.ivy2/cache/commons-beanutils/commons-beanutils/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-beanutils" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="412044" time="0" location="/Users/WeiChen/.ivy2/cache/commons-beanutils/commons-beanutils/docs/commons-beanutils-1.7.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-beanutils" type="jar" ext="jar" status="no" details="" size="188671" time="0" location="/Users/WeiChen/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar"/>
+					</artifact>
+					<artifact name="commons-beanutils" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="195349" time="0" location="/Users/WeiChen/.ivy2/cache/commons-beanutils/commons-beanutils/srcs/commons-beanutils-1.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415090924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="42">
+				<metadata-artifact status="no" details="" size="4590" time="0" location="/Users/WeiChen/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="641582" time="0" location="/Users/WeiChen/.ivy2/cache/commons-collections/commons-collections/srcs/commons-collections-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="commons-collections" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2028934" time="0" location="/Users/WeiChen/.ivy2/cache/commons-collections/commons-collections/docs/commons-collections-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-server">
+			<revision name="1.9" status="release" pubdate="20110902191728" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="14">
+				<metadata-artifact status="no" details="" size="6321" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-server/ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jersey-server" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1079766" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-server/docs/jersey-server-1.9-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9-javadoc.jar"/>
+					</artifact>
+					<artifact name="jersey-server" type="jar" ext="jar" status="no" details="" size="713089" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-server/jars/jersey-server-1.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar"/>
+					</artifact>
+					<artifact name="jersey-server" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="658444" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-server/srcs/jersey-server-1.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-json">
+			<revision name="1.9" status="release" pubdate="20110902192700" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="12">
+				<metadata-artifact status="no" details="" size="5817" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-json/ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jersey-json" type="jar" ext="jar" status="no" details="" size="147952" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-json/jars/jersey-json-1.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar"/>
+					</artifact>
+					<artifact name="jersey-json" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="90392" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-json/docs/jersey-json-1.9-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9-javadoc.jar"/>
+					</artifact>
+					<artifact name="jersey-json" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="113614" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-json/srcs/jersey-json-1.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jettison" name="jettison">
+			<revision name="1.1" status="release" pubdate="20090421005050" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="13">
+				<metadata-artifact status="no" details="" size="2745" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jettison/jettison/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jettison" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63298" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jettison/jettison/srcs/jettison-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1-sources.jar"/>
+					</artifact>
+					<artifact name="jettison" type="jar" ext="jar" status="no" details="" size="67758" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jettison/jettison/jars/jettison-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar"/>
+					</artifact>
+					<artifact name="jettison" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="237558" time="0" location="/Users/WeiChen/.ivy2/cache/org.codehaus.jettison/jettison/docs/jettison-1.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-core">
+			<revision name="1.9" status="release" pubdate="20110902191655" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">
+				<metadata-artifact status="no" details="" size="5441" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-core/ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jersey-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="431251" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-core/srcs/jersey-core-1.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9-sources.jar"/>
+					</artifact>
+					<artifact name="jersey-core" type="jar" ext="jar" status="no" details="" size="458739" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-core/jars/jersey-core-1.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar"/>
+					</artifact>
+					<artifact name="jersey-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1148485" time="0" location="/Users/WeiChen/.ivy2/cache/com.sun.jersey/jersey-core/docs/jersey-core-1.9-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-httpclient" name="commons-httpclient">
+			<revision name="3.1" status="release" pubdate="20070821214407" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/httpcomponents/httpclient-3.x/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="10">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3171" time="0" location="/Users/WeiChen/.ivy2/cache/commons-httpclient/commons-httpclient/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="439405" time="0" location="/Users/WeiChen/.ivy2/cache/commons-httpclient/commons-httpclient/srcs/commons-httpclient-3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar"/>
+					</artifact>
+					<artifact name="commons-httpclient" type="jar" ext="jar" status="no" details="" size="305001" time="0" location="/Users/WeiChen/.ivy2/cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-cli" name="commons-cli">
+			<revision name="1.2" status="release" pubdate="20090320040832" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/cli/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="9">
+				<metadata-artifact status="no" details="" size="4456" time="0" location="/Users/WeiChen/.ivy2/cache/commons-cli/commons-cli/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-cli" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="214274" time="0" location="/Users/WeiChen/.ivy2/cache/commons-cli/commons-cli/docs/commons-cli-1.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-cli" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="48726" time="0" location="/Users/WeiChen/.ivy2/cache/commons-cli/commons-cli/srcs/commons-cli-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar"/>
+					</artifact>
+					<artifact name="commons-cli" type="jar" ext="jar" status="no" details="" size="41123" time="0" location="/Users/WeiChen/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jetty-util">
+			<revision name="6.1.26" status="release" pubdate="20101111053810" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="8">
+				<metadata-artifact status="no" details="" size="7156" time="0" location="/Users/WeiChen/.ivy2/cache/org.mortbay.jetty/jetty-util/ivy-6.1.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jetty-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="123338" time="0" location="/Users/WeiChen/.ivy2/cache/org.mortbay.jetty/jetty-util/srcs/jetty-util-6.1.26-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26-sources.jar"/>
+					</artifact>
+					<artifact name="jetty-util" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="444864" time="0" location="/Users/WeiChen/.ivy2/cache/org.mortbay.jetty/jetty-util/docs/jetty-util-6.1.26-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26-javadoc.jar"/>
+					</artifact>
+					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="177131" time="0" location="/Users/WeiChen/.ivy2/cache/org.mortbay.jetty/jetty-util/jars/jetty-util-6.1.26.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.5.0" status="release" pubdate="20130308081811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="7">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3013" time="0" location="/Users/WeiChen/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="jar" ext="jar" status="no" details="" size="533455" time="0" location="/Users/WeiChen/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar"/>
+					</artifact>
+					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="276990" time="0" location="/Users/WeiChen/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar"/>
+					</artifact>
+					<artifact name="protobuf-java" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1212478" time="0" location="/Users/WeiChen/.ivy2/cache/com.google.protobuf/protobuf-java/docs/protobuf-java-2.5.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20120613062206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<metadata-artifact status="no" details="" size="8463" time="0" location="/Users/WeiChen/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="246635" time="0" location="/Users/WeiChen/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar"/>
+					</artifact>
+					<artifact name="commons-io" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="724124" time="0" location="/Users/WeiChen/.ivy2/cache/commons-io/commons-io/docs/commons-io-2.4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="/Users/WeiChen/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20120526174339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3544" time="0" location="/Users/WeiChen/.ivy2/cache/log4j/log4j/ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="log4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="481200" time="0" location="/Users/WeiChen/.ivy2/cache/log4j/log4j/srcs/log4j-1.2.17-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
+					</artifact>
+					<artifact name="log4j" type="jar" ext="jar" status="no" details="" size="489884" time="0" location="/Users/WeiChen/.ivy2/cache/log4j/log4j/jars/log4j-1.2.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+					</artifact>
+					<artifact name="log4j" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1491397" time="0" location="/Users/WeiChen/.ivy2/cache/log4j/log4j/docs/log4j-1.2.17-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="oro" name="oro">
+			<revision name="2.0.8" status="release" pubdate="20051109062901" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="107">
+				<metadata-artifact status="no" details="" size="2170" time="0" location="/Users/WeiChen/.ivy2/cache/oro/oro/ivy-2.0.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.pom"/>
+				<caller organisation="default" name="workspace$sources_javadoc_2.11" conf="provided" rev="2.0.8" rev-constraint-default="2.0.8" rev-constraint-dynamic="2.0.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="oro" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="239964" time="0" location="/Users/WeiChen/.ivy2/cache/oro/oro/srcs/oro-2.0.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8-sources.jar"/>
+					</artifact>
+					<artifact name="oro" type="jar" ext="jar" status="no" details="" size="65261" time="0" location="/Users/WeiChen/.ivy2/cache/oro/oro/jars/oro-2.0.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

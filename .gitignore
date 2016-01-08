@@ -3,9 +3,6 @@
 .idea/
 *.class
 *.[Cc]ache
-./project/target/
-./workspace/project/target/
-./project/project/project/
-./project/project/target/
+*/target/**
+target/
 */.sbtserver
-workspace/target/*
