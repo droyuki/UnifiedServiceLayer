@@ -4,5 +4,5 @@
 *.class
 *.[Cc]ache
 */target/**
-workspace/target/
+target/
 */.sbtserver
