@@ -1,4 +1,4 @@
-package com.iotlab.util
+package edu.nccu.iotlab.util
 
 /**
   * Created by WeiChen on 2016/1/8.
