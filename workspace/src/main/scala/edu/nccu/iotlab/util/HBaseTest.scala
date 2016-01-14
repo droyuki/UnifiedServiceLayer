@@ -17,6 +17,7 @@ object HBaseTest {
   val COLUMN_FAMILY_NAME = "cf"
 
 
+
   def main(args: Array[String]) {
     val config = HBaseConfiguration.create()
     config.set("hbase.zookeeper.quorum", zookeeperQuorumIP)
@@ -47,7 +48,7 @@ object HBaseTest {
         //插入key = id001 的資料
         val p = new Put("id001".getBytes)
         //為put操作指定 column 和 value （舊的put.add 方法被deprecated了）
-        p.addColumn("basic".getBytes, "name".getBytes, "wuchong".getBytes)
+        p.addColumn("basic".getBytes, "name".getBytes, "iotlab".getBytes)
         table.put(p)
 
         //查詢
