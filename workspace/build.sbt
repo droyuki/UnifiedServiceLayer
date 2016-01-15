@@ -2,7 +2,7 @@ name := "workspace"
 
 version := "1.0"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.10.5"
 assemblyJarName in assembly := "UnifiedServices.jar"
 fork := true
 
@@ -18,8 +18,6 @@ libraryDependencies ++= Seq(
   toGroupID("org.apache.hbase") % "hbase-client" % "1.0.0",
   "org.apache.hadoop" % "hadoop-common" % "2.6.3",
   "mysql" % "mysql-connector-java" % "5.1.6",
-  "org.scala-lang.modules" %% "scala-xml" % "1.0.4",
-  "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.4",
   "net.jpountz.lz4" % "lz4" % "1.3.0",
   "log4j" % "log4j" % "1.2.17",
   "org.xerial.snappy" % "snappy-java" % "1.1.2"

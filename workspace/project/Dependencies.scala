@@ -1,7 +1,6 @@
 import sbt._
 
 object Version {
-  val scala     = "2.11.7"
   val akka      = "2.3.11"
   val mockito   = "1.10.19"
   val scalaTest = "2.2.4"
@@ -9,7 +8,6 @@ object Version {
 }
 
 object Library {
-  val scala                 = "org.scala-lang"    %     "scala-reflect"                % Version.scala
   val akkaActor             = "com.typesafe.akka" %%    "akka-actor"                   % Version.akka
   val akkaTestKit           = "com.typesafe.akka" %%    "akka-testkit"                 % Version.akka
   val mockitoAll            = "org.mockito"       %     "mockito-all"                  % Version.mockito
@@ -20,7 +18,7 @@ object Library {
   val sparkGraphX           = "org.apache.spark"  %%    "spark-graphx"                 % Version.spark
   val sparkMlLib            = "org.apache.spark"  %%    "spark-mllib"                  % Version.spark
   val sparkStreamKafka      = "org.apache.spark"  %%    "spark-streaming-kafka"        % Version.spark
-  val sparkStreamTwitter    = "org.apache.spark"  %     "spark-streaming-twitter_2.10" % Version.spark
+  val sparkStreamTwitter    = "org.apache.spark"  %%    "spark-streaming-twitter"      % Version.spark
 }
 
 object Dependencies {
@@ -28,7 +26,6 @@ object Dependencies {
   import Library._
 
   val SparkLib = Seq(
-    scala,
     sparkCore % "provided",
     sparkStreaming % "provided",
     sparkSql % "provided",
