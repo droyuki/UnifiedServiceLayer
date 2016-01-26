@@ -5,6 +5,7 @@ package utils
 /**
   * Created by WeiChen on 2015/9/2.
   */
+
 import org.scalatest.FunSuite
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext

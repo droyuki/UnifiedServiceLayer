@@ -9,12 +9,12 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 /**
   * Created by WeiChen on 2016/1/15.
   */
-trait Service extends Serializable{
-  // foreachRDD: Function to process RDD[String] from DStream.
-  val foreachRDD: RDD[(String, String)] => Unit
+trait Service extends Serializable {
   val appName: String
   val kafkaTopicList: String
   val timeFrame: Long
+  // foreachRDD: Function to process RDD[String] from DStream.
+  val foreachRDD: (RDD[(String, String)]) => Unit
 
   def createStreamingContext(): StreamingContext = {
     val sparkConf = new SparkConf().setAppName(appName)
@@ -39,19 +39,23 @@ trait Service extends Serializable{
     ssc.awaitTermination()
   }
 
-  def printParametter(): Unit = {
+  def getParametter(): (String, String, Long) = {
+    println("------------------------")
     println("App name: " + appName)
     println("Kafka topic: " + kafkaTopicList)
     println("Time frame: " + timeFrame)
+    (appName, kafkaTopicList, timeFrame)
   }
 
-  def forTest(rdd:RDD[(String,String)]): Unit ={
+  def forTest(rdd: RDD[(String, String)]): Unit = {
     foreachRDD(rdd)
   }
+
 }
 
 class StreamingService(_appName: String, _kafkaTopicList: String, _timeFrame: Long, _foreachRDD: RDD[(String, String)] => Unit) extends Service {
-  override val foreachRDD: (RDD[(String, String)]) => Unit = _foreachRDD
+  override val foreachRDD = _foreachRDD
+
   override val appName = _appName
   override val timeFrame = _timeFrame
   override val kafkaTopicList: String = _kafkaTopicList

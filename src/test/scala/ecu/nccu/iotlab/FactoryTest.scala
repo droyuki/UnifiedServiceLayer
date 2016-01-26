@@ -14,7 +14,9 @@ class FactoryTest extends SparkTest {
     LogManager.getRootLogger.setLevel(Level.ERROR)
     val rdd = sc.parallelize(Array(("1", "msg_one"), ("2", "msg_two")))
     val testService = Service("TestService", "test_topic", 2, (rdd: RDD[(String, String)]) => rdd.map(_._2).foreach(println(_)))
-    testService.printParametter()
+    val res = testService.getParametter()
+    val expected = ("TestService","test_topic",2L)
     testService.forTest(rdd)
+    assertResult(expected)(res)
   }
 }

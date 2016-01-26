@@ -16,7 +16,7 @@ libraryDependencies ++= Seq(
   toGroupID("org.apache.hbase") % "hbase" % "1.0.0",
   toGroupID("org.apache.hbase") % "hbase-common" % "1.0.0",
   toGroupID("org.apache.hbase") % "hbase-client" % "1.0.0",
-  "org.apache.hadoop" % "hadoop-common" % "2.6.3",
+  "org.apache.hadoop" % "hadoop-common" % "2.6.3" % "provided" excludeAll ExclusionRule(organization = "javax.servlet"),
   "mysql" % "mysql-connector-java" % "5.1.6",
   "net.jpountz.lz4" % "lz4" % "1.3.0",
   "log4j" % "log4j" % "1.2.17",
