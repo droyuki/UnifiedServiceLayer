@@ -1,4 +1,4 @@
-package edu.nccu.iotlab
+package edu.nccu.iotlab.usl
 
 import kafka.serializer.StringDecoder
 import org.apache.spark.SparkConf
@@ -55,7 +55,6 @@ trait Service extends Serializable {
 
 class StreamingService(_appName: String, _kafkaTopicList: String, _timeFrame: Long, _foreachRDD: RDD[(String, String)] => Unit) extends Service {
   override val foreachRDD = _foreachRDD
-
   override val appName = _appName
   override val timeFrame = _timeFrame
   override val kafkaTopicList: String = _kafkaTopicList

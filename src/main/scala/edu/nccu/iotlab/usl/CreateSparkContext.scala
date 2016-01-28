@@ -1,7 +1,7 @@
-package edu.nccu.iotlab
+package edu.nccu.iotlab.usl
 
 import org.apache.spark.SparkConf
-import org.apache.spark.streaming.{StreamingContext, Seconds}
+import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 /**
   * Created by WeiChen on 2016/1/12.

@@ -1,14 +1,14 @@
 /**
   * Created by WeiChen on 2016/1/15.
   */
-package utils
+package ecu.nccu.iotlab.usl.util
+
 /**
   * Created by WeiChen on 2015/9/2.
   */
 
+import org.apache.spark.{SparkConf, SparkContext}
 import org.scalatest.FunSuite
-import org.apache.spark.SparkConf
-import org.apache.spark.SparkContext
 
 class SparkTest extends FunSuite {
   def localTest(name : String)(f : SparkContext => Unit) : Unit = {

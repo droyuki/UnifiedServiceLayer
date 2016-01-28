@@ -1,10 +1,9 @@
-package ecu.nccu.iotlab
+package ecu.nccu.iotlab.usl
 
-
-import edu.nccu.iotlab.Service
+import ecu.nccu.iotlab.usl.util.SparkTest
+import edu.nccu.iotlab.usl.Service
 import org.apache.log4j.{Level, LogManager}
 import org.apache.spark.rdd.RDD
-import utils.SparkTest
 
 /**
   * Created by WeiChen on 2016/1/15.

@@ -1,4 +1,4 @@
-package edu.nccu.iotlab.example
+package edu.nccu.iotlab.usl.example
 /**
   * Streaming Service Example
   * App Name: "TestKafka"
@@ -7,7 +7,7 @@ package edu.nccu.iotlab.example
   * print the length of RDD in each time frame.
   */
 
-import edu.nccu.iotlab.Service
+import edu.nccu.iotlab.usl.Service
 import org.apache.spark.rdd.RDD
 
 object StreamingService {
